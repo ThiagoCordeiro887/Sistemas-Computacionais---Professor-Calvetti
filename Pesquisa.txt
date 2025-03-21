@@ -1,0 +1,9 @@
+Em 10 de Março de 2025, houve um ataque de tipo DDoS (ataque de negação de serviço distribuido)aos servidores da plataforma X (anteriormente conhecido como Twitter), a autoria do ataque foi reivindicada por um grupo conhecido como Dark Storm Team
+que atacou a limitada capacidade dos servidores do X em relação a tráfego excessivo.
+ O ataque provavelmente foi feito mobilizando uma rede de bots para gerar um tráfego massivo tendo como alvo a plataforma X,Esse ataque causou interrupções no oferecimento dos serviços da plataforma, o que pode ter resultado em perdas de receita gerada por publicidade, 
+um ataque desse tipo poderia ter sido evitado implementando medidas preventivas como firewalls, sistema de detecção de anomalias e filtragem de trafego malicioso.
+Em Julho de 2024, a META, empresa dona de plataformas como Facebook,Instagram e Whatsapp, sofreu um ataque direcionado a suas API (API Exploitation Attack), não foram divulgados detalhes especificos sobre como foi realizado o ataque mas ataques desse tipo normalmente são realizados explorando vulnerabilidades envolvendo a falta de validação de entradas,
+esse ataque resultou na exposição dos dados pessoais de mais de 100 milhões de pessoas e a empresa recebeu multas da união europeia no valor de 251 milhões de euros.
+ Para evitar esse tipo de ataque, a empresa poderia ter investido em reforço da segurança de suas APIS, ter feito testes de segurança regulares e implementado politicas mais rigorosas de segurança em suas plataformas.
+
+Ambos ataques  em especifico aparentemente não estão registrados no CVE.
