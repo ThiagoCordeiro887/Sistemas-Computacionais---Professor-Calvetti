@@ -1,0 +1,20 @@
+1. Exemplos históricos do uso da criptografia
+Cifras de Maria Stuart
+Maria Stuart, rainha da Escócia, utilizava mensagens cifradas para se comunicar com aliados enquanto estava presa. O método consistia em substituir letras por símbolos, dificultando a leitura por espiões. No entanto, criptógrafos de Elizabeth I conseguiram decifrar suas mensagens, revelando um plano de conspiração contra a rainha inglesa. Como resultado, Maria foi julgada e condenada à execução em 1587.
+
+Cilindro de Jefferson
+Criado por Thomas Jefferson, o Cilindro de Jefferson era um dispositivo composto por discos rotativos com letras do alfabeto. Para cifrar uma mensagem, os discos eram girados até formar o texto original em uma linha, e outra linha aleatória do cilindro era enviada como a mensagem cifrada. O destinatário, com um cilindro idêntico, poderia girar os discos até encontrar a linha correta para decifrar a mensagem. Embora não tenha sido amplamente usado na época, esse conceito inspirou sistemas modernos de criptografia militar.
+
+2. Algoritmos de criptografia com chaves simétricas
+AES (Advanced Encryption Standard)
+O AES é um dos algoritmos de criptografia mais seguros e amplamente utilizados atualmente. Ele opera em blocos de 128 bits e suporta chaves de 128, 192 ou 256 bits. O processo de criptografia envolve múltiplas rodadas de substituição e permutação de bytes, misturando os dados para torná-los irreconhecíveis sem a chave correta. O AES é usado em conexões Wi-Fi seguras (WPA2), transações bancárias e armazenamento de dados.
+
+ChaCha20
+ChaCha20 é um algoritmo de criptografia de fluxo que oferece alta segurança e eficiência computacional. Diferente do AES, ele não usa operações pesadas como substituições de blocos, tornando-o mais rápido e eficiente, especialmente em dispositivos móveis. O ChaCha20 funciona gerando uma sequência de números pseudoaleatórios que são combinados com a mensagem original para cifrá-la. Ele é usado em protocolos como TLS para conexões seguras na internet.
+
+3. Algoritmos de criptografia com chaves assimétricas
+RSA (Rivest-Shamir-Adleman)
+RSA é um dos métodos mais utilizados para criptografia assimétrica. Ele funciona com um par de chaves: uma pública (usada para criptografar) e uma privada (usada para descriptografar). Sua segurança baseia-se na dificuldade de fatorar números primos muito grandes. O RSA é usado em transações bancárias, assinaturas digitais e na segurança de sites HTTPS.
+
+ECC (Elliptic Curve Cryptography)
+A criptografia de curvas elípticas (ECC) é uma alternativa mais eficiente ao RSA, pois oferece o mesmo nível de segurança com chaves menores. Seu funcionamento é baseado em operações matemáticas sobre curvas elípticas, tornando-a mais rápida e adequada para dispositivos móveis e sistemas embarcados. A ECC é usada em carteiras de criptomoedas, autenticação de servidores e segurança de mensagens criptografadas.
